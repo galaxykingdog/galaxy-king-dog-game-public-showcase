@@ -2,6 +2,10 @@
 
 Arcade space shooter with deterministic replay verification for anti-cheat score integrity.
 
+## Whitepapers
+- [Galaxy King Dog Whitepaper v1.7 (fixed)](./Galaxy_King_Dog_Whitepaper_v1.7_fixed.pdf)
+- [Galaxy King Dog Whitepaper v1.4](./Galaxy_King_Dog_Whitepaper_v1.4.pdf)
+
 ## What This Project Is
 - Browser game built with Phaser (`src/main.js`)
 - Deterministic run packaging (inputs + frame deltas + hashes)
