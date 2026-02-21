@@ -1,0 +1,24 @@
+Galaxy King Dog - Proprietary Software License
+Copyright (c) 2026 Galaxy King Dog.
+All rights reserved.
+
+This repository's source code, game logic, build files, scripts, and documentation
+are proprietary and confidential, except where a file explicitly states otherwise.
+
+You may NOT, without prior written permission from the copyright holder:
+- copy, modify, publish, distribute, sublicense, or sell this software;
+- create derivative works for public or commercial use;
+- use the project name, branding, or logos.
+
+No trademark rights are granted.
+No patent rights are granted.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+Third-party assets and dependencies keep their own licenses.
+For bundled Space Shooter assets by Kenney, see `license.txt` (CC0 1.0).

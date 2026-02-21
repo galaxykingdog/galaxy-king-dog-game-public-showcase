@@ -1,53 +1,39 @@
 # Galaxy King Dog
 
-Arcade space shooter with deterministic replay verification for anti-cheat score integrity.
+Competitive arcade shooter with deterministic replay proof and Solana verifier flow.
 
 ## Whitepapers
 - [Galaxy King Dog Whitepaper (Unified v2.0)](./Galaxy_King_Dog_Whitepaper_Unified_v2.md)
 - [Galaxy King Dog Whitepaper v1.7 (fixed)](./Galaxy_King_Dog_Whitepaper_v1.7_fixed.pdf)
 - [Galaxy King Dog Whitepaper v1.4](./Galaxy_King_Dog_Whitepaper_v1.4.pdf)
 
-## What This Project Is
-- Browser game built with Phaser (`src/main.js`)
-- Deterministic run packaging (inputs + frame deltas + hashes)
-- Local verifier service (`verifier/server.js`) for replay integrity checks
-- Solana-oriented entry/verification flow hooks in `src/chain/*`
+## On-Chain MVP Roadmap
+- [On-Chain MVP Plan](./onchain-mvp/README.md)
 
-## Core Features
-- Endless wave gameplay with increasing difficulty
-- Persistent `HI-SCORE` + `TOP 5`
-- Run package export at game over
-- Deterministic verification pipeline:
-  - `replay_hash`
-  - `run_hash`
-  - run ticket one-time usage
-  - checkpoint chain (schema v2)
-- Verification status in-game (`VERIFICATION CLOSED` / `PENDING`)
-
-## Controls
-- `SPACE`: start game
-- `R`: restart after game over
-- `B`: submit proof (chain flow)
-- `P`: download run package
-- `H`: export high-score backup JSON
-- `J`: import high-score backup JSON
+## Chain Adapter Layer
+- Adapter interface is now chain-agnostic:
+  - `submit_run(payload)`
+  - `claim_reward(payload)`
+- Implementation: `src/chain/chain_adapter.js`
+- Frozen whitepaper business rules: `src/chain/business_rules.js`
 
 ## Project Structure
-- `src/main.js`: gameplay + run-package generation + UI status
-- `src/chain/chain_config.js`: chain/verifier frontend config
-- `src/chain/chain_client.js`: wallet + ticket + verify/submit client flow
-- `verifier/server.js`: verifier API (`/health`, `/ticket`, `/verify`, `/submit`)
-- `verifier/sim/core.js`: deterministic headless re-simulation core
-- `verifier/tools/season_check.js`: audit tool for run packages
-- `tools/dev_server.py`: local static server
+- `src/main.js`: Phaser gameplay + PoHP run package creation (deterministic inputs/deltas/hash).
+- `src/chain/chain_config.js`: Frontend chain settings (cluster, fee, pool recipient, verifier URLs).
+- `src/chain/chain_client.js`: Wallet connect, entry fee tx, `/verify` + `/submit` calls.
+- `verifier/server.js`: Backend verifier API (`/health`, `/verify`, `/submit`).
+- `verifier/sim/core.js`: Deterministic replay simulation (Gate D).
+- `tools/dev_server.py`: Static server (+ optional legacy `/submit-score` save route).
+- `index.html`: Loads Phaser, Solana web3, chain config/client, and game.
 
 ## Requirements
-- Node.js 18+
-- Python 3.x
-- Phantom wallet (if chain mode is enabled)
+- Node.js 18+ (for verifier)
+- Python 3.x (for static game server)
+- Phantom wallet (for chain-enabled play)
 
-## Quick Start
-### 1) Start game server
+## Quick Start (Local)
+
+### 1) Start game static server
 From repo root:
 
 ```powershell
@@ -57,55 +43,91 @@ python tools\dev_server.py 8000
 Open: `http://127.0.0.1:8000`
 
 ### 2) Start verifier server
-In a second terminal:
+In another terminal:
 
 ```powershell
 cd verifier
 npm install
-copy .env.example .env
 npm start
 ```
 
-Verifier: `http://127.0.0.1:8787`
+Verifier default URL: `http://127.0.0.1:8787`
 
-## Verifier Configuration
-Edit `verifier/.env`:
-- `POOL_RECIPIENT` must match `src/chain/chain_config.js` `poolRecipient`
-- `GATE_D_MODE=strict` for production integrity close
-- `ALLOW_LEGACY_NO_TICKET=false` to enforce run tickets
+## Chain Configuration
 
-Do not commit real secrets:
+Edit `src/chain/chain_config.js`:
+- `enabled`: set `true` for verifier + wallet flow, `false` for offline/local play.
+- `cluster` / `rpcUrl`
+- `verifyUrl` and `submitUrl`
+- `feeLamports`
+- `poolRecipient`
+- `requireWalletToStart`
+
+Important: `poolRecipient` in `src/chain/chain_config.js` must match `POOL_RECIPIENT` used by verifier.
+
+## Verifier Environment
+
+`verifier/server.js` requires a pool recipient at startup.
+
+Set `.env` in `verifier/` with at least:
+- `PORT=8787`
+- `CLUSTER=devnet`
+- `RPC_URL=https://api.devnet.solana.com`
+- `POOL_RECIPIENT=<same as chain_config.js poolRecipient>`
+
+Optional:
 - `VERIFIER_SECRET_KEY_B64`
 - `SUBMITTER_SECRET_KEY_B64`
+- `EXPECTED_GAME_ID`
+- `ASSETS_DIR`
 
-## Verification Model (Current)
-- Input stream + delta stream integrity checks
-- Entry transaction validation against configured pool recipient
-- Run ticket one-time anti-replay check
-- Checkpoint chain verification (`schema: 2`)
-- Gate D status and score verdict surfaced in UI
+## Gameplay + Proof Flow
+- `SPACE`: start run (wallet/payment enforced if chain config requires it).
+- During run, PoHP records input masks + frame deltas.
+- On game over, a run package is finalized (`replay_hash`, `run_hash`, etc.).
+- `B`: submit proof through verifier (`/verify`, then optional `/submit`).
+- `P`: download run package JSON.
 
-## Run Package Audit
-Verify all downloaded packages:
+## Troubleshooting
+- `CHAIN: Phantom not detected`: install/enable Phantom extension.
+- `Missing POOL_RECIPIENT in .env`: add `POOL_RECIPIENT` in `verifier/.env`.
+- `/verify` fails with hash mismatch: ensure client/verifier are on same branch/ruleset.
+- Verifier unreachable: check `verifyUrl` in `src/chain/chain_config.js` and that verifier is running.
+
+## Notes
+- Gameplay is client-side.
+- Verification is deterministic replay + hashing.
+- Payout/reward logic depends on your on-chain setup and verifier policy.
+
+## Seasonal Verification Policy (Recommended)
+- Keep verifier in `GATE_D_MODE=warn` during active development/beta.
+- Treat only `season_verification_tier=verified` as reward-eligible.
+- Treat `season_verification_tier=provisional` as pending/unpaid.
+- New run packages use `schema: 2` with checkpoint-chain fields:
+  - `checkpoints_b64`
+  - `checkpoints_every_frames`
+  - `checkpoint_chain_final`
+  - `checkpoints_len`
+
+### Quick seasonal audit (all downloaded run packages)
+From `verifier/`:
 
 ```powershell
-cd verifier
 npm run season:check -- --dir "C:\Users\<you>\Downloads"
 ```
 
-Outputs tier/score/wave and verification notes per package.
+This prints each package with:
+- `tier`: `provisional` or `verified`
+- `score` / `wave`
+- Gate D status note
 
-## Production Checklist
-1. Keep verifier always online.
-2. Keep `GATE_D_MODE=strict`.
-3. Keep `ALLOW_LEGACY_NO_TICKET=false`.
-4. Backup run packages and verifier logs regularly.
-5. Rotate any leaked/reused tokens and private keys.
-
-## Security Notes
-- Previous leaked tokens/keys must be revoked and rotated.
-- Treat all credentials as compromised if ever pasted in chat or screenshots.
-- Keep `.env` local only.
+### Launch hardening checklist
+1. Finish Gate D parity so real packages return `gate_d_status=pass`.
+2. Set `GATE_D_MODE=strict` in `verifier/.env`.
+3. Set `ALLOW_LEGACY_NO_TICKET=false` in `verifier/.env` (enforce one-time run tickets).
+4. Restart verifier and re-run `season:check`.
+5. Enable rewards only for `season_verification_tier=verified`.
 
 ## License
-See `license.txt`.
+- Project code and game logic: proprietary, all rights reserved. See `LICENSE`.
+- Third-party bundled assets: see `license.txt` (Kenney CC0).
