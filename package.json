@@ -1,0 +1,17 @@
+{
+  "name": "galaxy-king-dog",
+  "version": "1.0.0",
+  "description": "Galaxy King Dog - Galaxian Style Game",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "npx http-server -p 8000"
+  },
+  "keywords": ["game", "phaser"],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+
+

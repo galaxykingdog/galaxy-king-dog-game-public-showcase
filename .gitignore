@@ -1,0 +1,6 @@
+verifier/tmp_verify_runpackage.json
+verifier/.env
+verifier/*.log
+verifier/boot_*.log
+C:/GKD_BACKUPS/
+*.local
