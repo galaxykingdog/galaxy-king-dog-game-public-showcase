@@ -83,11 +83,11 @@ let countdownSprites = [];
 let countdownInProgress = false;
 
 // =================== AUDIO (mix knobs) ===================
-const BGM_VOLUME = 0.28;             // background music volume
+const BGM_VOLUME = 0.34;             // background music volume (slightly higher)
 const SFX_SHOOT_VOLUME = 0.45;       // player shoot
 const SFX_HIT_VOLUME = 0.55;         // player hit
 const SFX_ENEMY_MOVE_VOL = 0.22;     // continuous “formation move” hum
-const SFX_ENEMY_DIVE_VOL = 0.28;     // continuous “dive” loop hum
+const SFX_ENEMY_DIVE_VOL = 0.18;     // continuous “dive” loop hum (lower)
 
 let audioUnlocked = false;
 let bgm = null;
@@ -108,9 +108,12 @@ let playerState = PLAYER_STATE.PLAYING;
 let respawnTimer = 0;
 let invulnerabilityTimer = 0;
 
-const RESPAWN_DELAY = 800;     // ms
-const INVULN_DURATION = 1600;  // ms  ✅ (your request: longer blink invulnerable)
-const DIVE_EXIT_Y = 650;       // dive exits screen below this Y
+const RESPAWN_DELAY = 560;     // ms (faster return after hit)
+const INVULN_DURATION = 1850;  // ms (slightly longer invulnerability blink)
+const DIVE_EXIT_Y = 640;       // dive exits below the player's usual lane
+const DIVE_STRAIGHT_VY = 170;  // straight dive vertical speed tuned to avoid early timeout wrap
+const DIVE_STRAIGHT_VX_MAX = 185; // slightly more horizontal drift during straight dive
+const DIVE_STRAIGHT_X_GAIN = 3.6; // follow strength to create a less-vertical dive path
 const RETURN_ENTRY_Y = -12;   // wrap re-entry Y (less “vanish”)
 const MAX_PLAYER_BULLETS_ONSCREEN = 3;
 
@@ -1861,6 +1864,15 @@ function unlockAudioOnce(scene) {
   if (sfxEnemyDiveLoop) sfxEnemyDiveLoop.play();
 }
 
+function tryAutoStartAudio(scene) {
+  unlockAudioOnce(scene);
+  if (bgm) bgm.setVolume(BGM_VOLUME);
+  const ctx = scene?.sound?.context;
+  if (ctx && typeof ctx.resume === 'function' && ctx.state === 'suspended') {
+    ctx.resume().catch(() => {});
+  }
+}
+
 function setLoopVolume(snd, target) {
   if (!snd) return;
   const cur = snd.volume ?? 0;
@@ -1927,6 +1939,13 @@ function create() {
   proofKey   = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.P);
   exportScoresKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.H);
   importScoresKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.J);
+
+  // Try to start BGM as soon as the page loads.
+  tryAutoStartAudio(this);
+
+  // If browser blocks autoplay, start on first interaction.
+  this.input.once('pointerdown', () => tryAutoStartAudio(this));
+  this.input.keyboard.once('keydown', () => tryAutoStartAudio(this));
 
   // UI
   const uiStyle = { fontSize: '20px', fill: '#0f0', fontFamily: 'Courier New' };
@@ -3035,7 +3054,7 @@ function updateEnemyFormation(delta) {
 // ---- Enemy self-heal guards (prevents rare "lost enemy" edge-cases) ----
 // These do NOT depend on player invulnerability; they only ensure an enemy can't get stuck off-screen or in a bad state.
 const ENEMY_STUCK_OFFSCREEN_MS = 1600;
-const ENEMY_MAX_DIVE_MS = 9000;
+const ENEMY_MAX_DIVE_MS = 14000;
 const ENEMY_MAX_RETURN_MS = 4500;
 const ENEMY_SANITY_MIN_X = -120, ENEMY_SANITY_MAX_X = 920;
 const ENEMY_SANITY_MIN_Y = -220, ENEMY_SANITY_MAX_Y = 860;
@@ -3299,8 +3318,8 @@ if (offscreenMs > ENEMY_STUCK_OFFSCREEN_MS) {
       if (t >= 1) e.setData('state', 'diveStraight');
 
     } else if (state === 'diveStraight') {
-      const vxMax = 150 * ENEMY_SPEED_FACTOR * sMul * thinMul * speedBrake;
-      const vy    = 145 * ENEMY_SPEED_FACTOR * sMul * thinMul * speedBrake;
+      const vxMax = DIVE_STRAIGHT_VX_MAX * ENEMY_SPEED_FACTOR * sMul * thinMul * speedBrake;
+      const vy    = DIVE_STRAIGHT_VY * ENEMY_SPEED_FACTOR * sMul * thinMul * speedBrake;
 
       let targetX = e.getData('diveTargetX') || e.x;
 
@@ -3314,7 +3333,7 @@ if (offscreenMs > ENEMY_STUCK_OFFSCREEN_MS) {
         e.setData('diveTargetX', targetX);
       }
       const dx = targetX - e.x;
-      const vx = Phaser.Math.Clamp(dx * 2.9, -vxMax, vxMax);
+      const vx = Phaser.Math.Clamp(dx * DIVE_STRAIGHT_X_GAIN, -vxMax, vxMax);
 
       e.x += vx * dt;
       e.y += vy * dt;
