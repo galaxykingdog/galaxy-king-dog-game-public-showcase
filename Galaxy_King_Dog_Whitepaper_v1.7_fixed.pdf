@@ -1,0 +1,3713 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Type /Pages
+/Count 10
+/Kids [ 4 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R 35 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Producer (PyPDF2)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F194f78fea-d86c-4842-9d39-539dad458173 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4390
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0401) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 706 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 22 Tf
+26 TL
+154.378 0 Td
+(Galaxy\040King\040Dog) Tj
+T*
+-154.378 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 63.6 678 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(Whitepaper\040v1\0566\040\050Locked\040Spec\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 660 cm
+q
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+(Date\072\0402025\05512\05517) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 650 cm
+Q
+q
+1 0 0 1 63.6 616 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(Purpose\056) Tj
+/F1 10.5 Tf
+(\040Define\040the\040on\055chain\040rules\040for\040farming\054\040checkpoints\054\040payouts\054\040charity\040routing\054\040NFTs\054\040and) Tj
+T*
+(proof\055of\055play\040for\040the\040Galaxy\040King\040Dog\040arcade\040game\040on\040Solana\054\040without\040changing\040gameplay\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 606 cm
+Q
+q
+1 0 0 1 63.6 574 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(Spec\040Lock\040Summary) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 552 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 552 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(\044420POP) Tj
+/F1 10.5 Tf
+(\040is\040the\040SPL\040token\040for\040all\040mints\057rewards\040\0509\040decimals\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 532 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 532 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Entry\040fees\040go\040to\040a\040program\055owned\040) Tj
+/F2 10.5 Tf
+(Game\040Pool\040PDA) Tj
+/F1 10.5 Tf
+(\073\040payouts\040are\040only\040via\040hard\055coded\040rules\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 484 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 30 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 484 cm
+q
+BT
+1 0 0 1 0 31.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Creator\040payout\040auto\055split\072\040) Tj
+/F2 10.5 Tf
+(49\045) Tj
+/F1 10.5 Tf
+(\040to\040creator\040wallet) Tj
+T*
+(\050) Tj
+/F3 10.5 Tf
+(8qCpYyRjdG8Y1jW5fu77XZ3qkWErgABhscEuuY4mRjnr) Tj
+/F1 10.5 Tf
+(\051\040and\040) Tj
+/F2 10.5 Tf
+(51\045) Tj
+/F1 10.5 Tf
+(\040to\040Charity\040Pool\040\050never) Tj
+T*
+(passes\040through\040creator\040wallet\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 464 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 464 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Charity\040Pool\040sends\040) Tj
+/F2 10.5 Tf
+(20\045\040of\040any\040incoming\040donations\040back\040to\040the\040Game\040Pool) Tj
+/F1 10.5 Tf
+(\040automatically\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 430 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 430 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Charity\040governance\040vote\040happens\040only\040) Tj
+/F2 10.5 Tf
+(two\040times) Tj
+/F1 10.5 Tf
+(\072\040end\040Human\040Season\040and\040end\040Chaos\040Season\056) Tj
+T*
+(Eligibility\072\040farmed\040\076\075\0401\040token\056\040Quorum\072\040) Tj
+/F2 10.5 Tf
+(min\04010\054000\040votes) Tj
+/F1 10.5 Tf
+(\056\040Duration\072\040) Tj
+/F2 10.5 Tf
+(99\040days) Tj
+/F1 10.5 Tf
+(\056\040Tie\040\075\076\040re\055vote\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 410 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 410 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(World\040Record\040payout\040cadence\040\050locked\051\072) Tj
+/F1 10.5 Tf
+(\040payout\040occurs\040) Tj
+/F2 10.5 Tf
+(on\040every\040WR\040break) Tj
+/F1 10.5 Tf
+(\040\050not\040every\040100\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 376 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 376 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Checkpoints\040are\040) Tj
+/F2 10.5 Tf
+(permissionless) Tj
+/F1 10.5 Tf
+(\072\040any\040caller\040can\040execute\040payouts\040\050\042automatic\042\040on\040Solana\040means\040the) Tj
+T*
+(payout\040runs\040inside\040the\040caller\047s\040transaction\051\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F194f78fea-d86c-4842-9d39-539dad458173 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F194f78fea-d86c-4842-9d39-539dad458173 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0401) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F1f8b4142c-33f7-4293-af78-dcbe29d85ebc <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 3233
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0402) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 712 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(1\056\040Token\040and\040Accounts) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 662 cm
+q
+BT
+1 0 0 1 0 31.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(The\040system\040uses\040one\040fungible\040SPL\040token\054\040) Tj
+/F2 10.5 Tf
+(\044420POP) Tj
+/F1 10.5 Tf
+(\040\0509\040decimals\051\056\040Entry\040fees\040are\040paid\040in\040SOL\040\050lamports\051\056) Tj
+T*
+(The\040program\040owns\040the\040pool\040accounts\040via\040PDAs\073\040there\040is\040no\040withdraw\040authority\040outside\040programmed) Tj
+T*
+(payouts\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 656 cm
+Q
+q
+1 0 0 1 77.4 548 cm
+q
+0 0 0 rg
+n
+0 108 457.2 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 90 457.2 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 72 457.2 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 54 457.2 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 36 457.2 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 18 457.2 -18 re
+f*
+1 1 1 rg
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 95 Tm
+(Account) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 95 Tm
+(Type) Tj
+T*
+ET
+BT
+1 0 0 1 196.8 95 Tm
+(Role\040\057\040Notes) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 77.5 Tm
+(Game\040Pool) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 77.5 Tm
+(Program\055owned\040PDA) Tj
+T*
+ET
+BT
+1 0 0 1 196.8 77.5 Tm
+(Receives\040100\045\040of\040SOL\040entry\040fees\073\040pays\040out\040only\040via\040programmed\040checkpoints\056) Tj
+T*
+ET
+BT
+1 0 0 1 6 59.5 Tm
+(Charity\040Pool) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 59.5 Tm
+(Program\055owned\040PDA) Tj
+T*
+ET
+BT
+1 0 0 1 196.8 59.5 Tm
+(Receives\04051\045\040of\040every\040creator\040payout\073\040donates\04020\045\040back\040to\040Game\040Pool\040automatically\056) Tj
+T*
+ET
+BT
+1 0 0 1 6 41.5 Tm
+(Creator\040Wallet) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 41.5 Tm
+(Externally\055owned) Tj
+T*
+ET
+BT
+1 0 0 1 196.8 41.5 Tm
+(Receives\04049\045\040of\040creator\040payout\072\0408qCpYyRjdG8Y1jW5fu77XZ3qkWErgABhscEuuY4mRjnr) Tj
+T*
+ET
+BT
+1 0 0 1 6 23.5 Tm
+(Season\040State) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 23.5 Tm
+(Program\040account) Tj
+T*
+ET
+BT
+1 0 0 1 196.8 23.5 Tm
+(Tracks\040season\040id\054\040mint\040cap\054\040minted\040count\054\040score\040target\054\040top\040score\040and\040champion\040wallet\056) Tj
+T*
+ET
+BT
+1 0 0 1 6 5.5 Tm
+(Record\040State) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 5.5 Tm
+(Program\040account) Tj
+T*
+ET
+BT
+1 0 0 1 196.8 5.5 Tm
+(Tracks\040global\040record\054\040current\040record\055holder\040wallet\054\040and\040record\055break\040events\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.501961 0.501961 0.501961 RG
+0.5 w
+n
+0 108 m
+457.2 108 l
+S
+n
+0 0 m
+457.2 0 l
+S
+n
+0 0 m
+0 108 l
+S
+n
+457.2 0 m
+457.2 108 l
+S
+n
+0 90 m
+457.2 90 l
+S
+n
+0 72 m
+457.2 72 l
+S
+n
+0 54 m
+457.2 54 l
+S
+n
+0 36 m
+457.2 36 l
+S
+n
+0 18 m
+457.2 18 l
+S
+n
+93.6 0 m
+93.6 108 l
+S
+n
+190.8 0 m
+190.8 108 l
+S
+Q
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1f8b4142c-33f7-4293-af78-dcbe29d85ebc 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F1f8b4142c-33f7-4293-af78-dcbe29d85ebc 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0402) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F1ecbb8180-c23e-4815-97dd-ee451d6b7bfe <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 3547
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0403) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 712 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(2\056\040Proof\040of\040Play\040Package\040\050PoP\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 676 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Each\040run\040produces\040a\040compact\040) Tj
+/F2 10.5 Tf
+(PoP\040proof\040package) Tj
+/F1 10.5 Tf
+(\056\040The\040chain\040stores\040only\040hashes\040and\040a\040few\040fields\073\040the) Tj
+T*
+(full\040replay\040can\040be\040stored\040off\055chain\040\050IPFS\057Arweave\057HTTPS\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 656 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 656 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(player\137pubkey) Tj
+/F1 10.5 Tf
+(\072\040connected\040wallet\040public\040key\040\050must\040be\040non\055empty\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 636 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 636 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(fee\137lamports) Tj
+/F1 10.5 Tf
+(\054\040) Tj
+/F2 10.5 Tf
+(entry\137sig) Tj
+/F1 10.5 Tf
+(\054\040) Tj
+/F2 10.5 Tf
+(entry\137slot) Tj
+/F1 10.5 Tf
+(\072\040proves\040the\040entry\040fee\040was\040paid\040into\040the\040Game\040Pool\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 616 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 616 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(score) Tj
+/F1 10.5 Tf
+(\054\040) Tj
+/F2 10.5 Tf
+(season\137id) Tj
+/F1 10.5 Tf
+(\054\040) Tj
+/F2 10.5 Tf
+(passed) Tj
+/F1 10.5 Tf
+(\072\040result\040and\040gating\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 596 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 596 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(replay\137hash) Tj
+/F1 10.5 Tf
+(\072\040hash\040of\040deterministic\040replay\040data\040\050seed\040\053\040inputs\057events\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 576 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 576 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(version\137hash) Tj
+/F1 10.5 Tf
+(\072\040hash\040of\040the\040exact\040game\040build\040\050assets\040\053\040JS\040bundle\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 542 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 542 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(run\137hash) Tj
+/F1 10.5 Tf
+(\072\040H\050player\137pubkey\040\174\174\040season\137id\040\174\174\040fee\137lamports\040\174\174\040entry\137sig\040\174\174\040entry\137slot\040\174\174\040score\040\174\174) Tj
+T*
+(replay\137hash\040\174\174\040version\137hash\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 532 cm
+Q
+q
+1 0 0 1 63.6 498 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(On\055chain\040minimal\040record) Tj
+/F1 10.5 Tf
+(\072\040run\137hash\054\040replay\137hash\054\040version\137hash\054\040player\137pubkey\054\040season\137id\054) Tj
+T*
+(fee\137lamports\054\040score\054\040passed\054\040entry\137sig\054\040entry\137slot\054\040optional\040run\137package\137uri\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1ecbb8180-c23e-4815-97dd-ee451d6b7bfe 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F1ecbb8180-c23e-4815-97dd-ee451d6b7bfe 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0403) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F11fa3135f-6ee8-4cda-99f8-9a8ef918dca1 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 6435
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0404) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 712 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(3\056\040Seasons\054\040Supply\040and\040Farming\040\050Human\040Emission\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 662 cm
+q
+BT
+1 0 0 1 0 31.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Human\040emission\040targets\040a\040total\040of\040) Tj
+/F2 10.5 Tf
+(2\0561B\040\044420POP) Tj
+/F1 10.5 Tf
+(\056\040Farming\040is\040split\040into\040) Tj
+/F2 10.5 Tf
+(33\040mint\040seasons) Tj
+/F1 10.5 Tf
+(\040\050Bitcoin) Tj
+T*
+(halving\055style\051\056\040Each\040season\040has\040a\040) Tj
+/F2 10.5 Tf
+(mint\137cap) Tj
+/F1 10.5 Tf
+(\056\040When\040the\040cap\040is\040reached\054\040the\040season\040ends\040and\040the\040next) Tj
+T*
+(season\040begins\056\040Chaos\040mode\040begins\040only\040after\040Human\040emission\040ends\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 654 cm
+Q
+q
+1 0 0 1 63.6 628 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(3\0561\040Mint\040caps\040per\040season\040\050halving\055style\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 580 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 31.5 Tm
+/F1 10.5 Tf
+14 TL
+(Default\040schedule\072\040season\137cap\133i\135\040halves\040each\040season\056\040Because\040\044420POP\040is\040minted\040as\040whole\040tokens\040per) Tj
+T*
+(farm\054\040caps\040are\040clamped\040to\040a\040minimum\040of\0401\040token\040in\040the\040final\040seasons\073\040any\040small\040rounding\040remainder\040is) Tj
+T*
+(added\040to\040Season\0401\040to\040make\040the\040total\040exactly\0402\0561B\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 574 cm
+Q
+q
+1 0 0 1 169.2 304 cm
+q
+0 0 0 rg
+n
+0 270 273.6 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 252 273.6 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 234 273.6 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 216 273.6 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 198 273.6 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 180 273.6 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 162 273.6 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 144 273.6 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 126 273.6 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 108 273.6 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 90 273.6 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 72 273.6 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 54 273.6 -18 re
+f*
+0.960784 0.960784 0.960784 rg
+n
+0 36 273.6 -18 re
+f*
+0.827451 0.827451 0.827451 rg
+n
+0 18 273.6 -18 re
+f*
+1 1 1 rg
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 257 Tm
+(Season) Tj
+T*
+ET
+BT
+1 0 0 1 78 257 Tm
+(Mint\040cap\040\050tokens\051) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 239 Tm
+(S1) Tj
+T*
+ET
+BT
+1 0 0 1 78 239 Tm
+(1\054050\054000\054012) Tj
+T*
+ET
+BT
+1 0 0 1 6 221 Tm
+(S2) Tj
+T*
+ET
+BT
+1 0 0 1 78 221 Tm
+(525\054000\054000) Tj
+T*
+ET
+BT
+1 0 0 1 6 203 Tm
+(S3) Tj
+T*
+ET
+BT
+1 0 0 1 78 203 Tm
+(262\054500\054000) Tj
+T*
+ET
+BT
+1 0 0 1 6 185 Tm
+(S4) Tj
+T*
+ET
+BT
+1 0 0 1 78 185 Tm
+(131\054250\054000) Tj
+T*
+ET
+BT
+1 0 0 1 6 167 Tm
+(S5) Tj
+T*
+ET
+BT
+1 0 0 1 78 167 Tm
+(65\054625\054000) Tj
+T*
+ET
+BT
+1 0 0 1 6 149 Tm
+(S6) Tj
+T*
+ET
+BT
+1 0 0 1 78 149 Tm
+(32\054812\054500) Tj
+T*
+ET
+BT
+1 0 0 1 6 131 Tm
+(S7) Tj
+T*
+ET
+BT
+1 0 0 1 78 131 Tm
+(16\054406\054250) Tj
+T*
+ET
+BT
+1 0 0 1 6 113 Tm
+(S8) Tj
+T*
+ET
+BT
+1 0 0 1 78 113 Tm
+(8\054203\054125) Tj
+T*
+ET
+BT
+1 0 0 1 6 95 Tm
+(\056\056\056) Tj
+T*
+ET
+BT
+1 0 0 1 78 95 Tm
+(\056\056\056) Tj
+T*
+ET
+BT
+1 0 0 1 6 77 Tm
+(S29) Tj
+T*
+ET
+BT
+1 0 0 1 78 77 Tm
+(3) Tj
+T*
+ET
+BT
+1 0 0 1 6 59 Tm
+(S30) Tj
+T*
+ET
+BT
+1 0 0 1 78 59 Tm
+(1) Tj
+T*
+ET
+BT
+1 0 0 1 6 41 Tm
+(S31) Tj
+T*
+ET
+BT
+1 0 0 1 78 41 Tm
+(1) Tj
+T*
+ET
+BT
+1 0 0 1 6 23 Tm
+(S32) Tj
+T*
+ET
+BT
+1 0 0 1 78 23 Tm
+(1) Tj
+T*
+ET
+BT
+1 0 0 1 6 5 Tm
+(S33) Tj
+T*
+ET
+BT
+1 0 0 1 78 5 Tm
+(1) Tj
+T*
+ET
+q
+1 J
+1 j
+0.501961 0.501961 0.501961 RG
+0.5 w
+n
+0 270 m
+273.6 270 l
+S
+n
+0 0 m
+273.6 0 l
+S
+n
+0 0 m
+0 270 l
+S
+n
+273.6 0 m
+273.6 270 l
+S
+n
+0 252 m
+273.6 252 l
+S
+n
+0 234 m
+273.6 234 l
+S
+n
+0 216 m
+273.6 216 l
+S
+n
+0 198 m
+273.6 198 l
+S
+n
+0 180 m
+273.6 180 l
+S
+n
+0 162 m
+273.6 162 l
+S
+n
+0 144 m
+273.6 144 l
+S
+n
+0 126 m
+273.6 126 l
+S
+n
+0 108 m
+273.6 108 l
+S
+n
+0 90 m
+273.6 90 l
+S
+n
+0 72 m
+273.6 72 l
+S
+n
+0 54 m
+273.6 54 l
+S
+n
+0 36 m
+273.6 36 l
+S
+n
+0 18 m
+273.6 18 l
+S
+n
+72 0 m
+72 270 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 63.6 298 cm
+Q
+q
+1 0 0 1 63.6 280 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0.501961 0.501961 0.501961 rg
+(Total\072) Tj
+/F1 9 Tf
+(\0402\054100\054000\054000\040tokens\040across\04033\040seasons\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 270 cm
+Q
+q
+1 0 0 1 63.6 244 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(3\0562\040Mode\040A\040\050bootstrap\040targets\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 196 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 31.5 Tm
+/F1 10.5 Tf
+14 TL
+-0.120286 Tw
+(Mode\040A\040uses\040a\040fixed\040score\040threshold\040per\040season\040to\040mint\0401\040token\056\040We\040start\040at\0402\054000\040points\040and\040climb\040up\040to) Tj
+T*
+0 Tw
+(40\054000\040points\054\040then\040switch\040to\040Mode\040B\056\040The\040exact\040per\055season\040targets\040are\040a\040deterministic\040list\040in\040program) Tj
+T*
+(config\040\050not\040adjustable\040mid\055season\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 77.4 70 cm
+q
+0 0 0 rg
+n
+0 126 457.2 -18 re
+f*
+1 1 1 rg
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 113 Tm
+(Season\040range) Tj
+T*
+ET
+BT
+1 0 0 1 150 113 Tm
+(Score\040target\040\050Mode\040A\051) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 9.5 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 95.5 Tm
+(S1) Tj
+T*
+ET
+BT
+1 0 0 1 150 95.5 Tm
+(2\054000) Tj
+T*
+ET
+BT
+1 0 0 1 6 77.5 Tm
+(S2) Tj
+T*
+ET
+BT
+1 0 0 1 150 77.5 Tm
+(2\054300) Tj
+T*
+ET
+BT
+1 0 0 1 6 59.5 Tm
+(S3) Tj
+T*
+ET
+BT
+1 0 0 1 150 59.5 Tm
+(2\054700) Tj
+T*
+ET
+BT
+1 0 0 1 6 41.5 Tm
+(S4) Tj
+T*
+ET
+BT
+1 0 0 1 150 41.5 Tm
+(3\054200) Tj
+T*
+ET
+BT
+1 0 0 1 6 23.5 Tm
+(S5) Tj
+T*
+ET
+BT
+1 0 0 1 150 23.5 Tm
+(3\054800) Tj
+T*
+ET
+BT
+1 0 0 1 6 5.5 Tm
+(S6) Tj
+T*
+ET
+BT
+1 0 0 1 150 5.5 Tm
+(4\054500) Tj
+T*
+ET
+q
+1 J
+1 j
+0.501961 0.501961 0.501961 RG
+0.5 w
+n
+0 126 m
+457.2 126 l
+S
+n
+0 0 m
+0 126 l
+S
+n
+457.2 0 m
+457.2 126 l
+S
+n
+0 0 m
+457.2 0 l
+S
+n
+0 108 m
+457.2 108 l
+S
+n
+0 90 m
+457.2 90 l
+S
+n
+0 72 m
+457.2 72 l
+S
+n
+0 54 m
+457.2 54 l
+S
+n
+0 36 m
+457.2 36 l
+S
+n
+0 18 m
+457.2 18 l
+S
+n
+144 0 m
+144 126 l
+S
+Q
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F11fa3135f-6ee8-4cda-99f8-9a8ef918dca1 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F11fa3135f-6ee8-4cda-99f8-9a8ef918dca1 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0404) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+19 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F1c31ef970-be92-43b4-9e46-42605fd5992e <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 3396
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0405) Tj
+T*
+ET
+Q
+q
+1 0 0 1 77.4 624 cm
+q
+0 0 0 rg
+BT
+/F1 9.5 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 95.5 Tm
+(S7) Tj
+T*
+ET
+BT
+1 0 0 1 150 95.5 Tm
+(5\054300) Tj
+T*
+ET
+BT
+1 0 0 1 6 77.5 Tm
+(S8) Tj
+T*
+ET
+BT
+1 0 0 1 150 77.5 Tm
+(6\054200) Tj
+T*
+ET
+BT
+1 0 0 1 6 59.5 Tm
+(S9) Tj
+T*
+ET
+BT
+1 0 0 1 150 59.5 Tm
+(7\054200) Tj
+T*
+ET
+BT
+1 0 0 1 6 41.5 Tm
+(S10) Tj
+T*
+ET
+BT
+1 0 0 1 150 41.5 Tm
+(8\054400) Tj
+T*
+ET
+BT
+1 0 0 1 6 23.5 Tm
+(\056\056\056) Tj
+T*
+ET
+BT
+1 0 0 1 150 23.5 Tm
+(Smooth\040increase\040each\040season) Tj
+T*
+ET
+BT
+1 0 0 1 6 5.5 Tm
+(S\137last\137ModeA) Tj
+T*
+ET
+BT
+1 0 0 1 150 5.5 Tm
+(40\054000) Tj
+T*
+ET
+q
+1 J
+1 j
+0.501961 0.501961 0.501961 RG
+0.5 w
+n
+0 0 m
+0 108 l
+S
+n
+457.2 0 m
+457.2 108 l
+S
+n
+0 0 m
+457.2 0 l
+S
+n
+0 108 m
+457.2 108 l
+S
+n
+0 90 m
+457.2 90 l
+S
+n
+0 72 m
+457.2 72 l
+S
+n
+0 54 m
+457.2 54 l
+S
+n
+0 36 m
+457.2 36 l
+S
+n
+0 18 m
+457.2 18 l
+S
+n
+144 0 m
+144 108 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 63.6 614 cm
+Q
+q
+1 0 0 1 63.6 588 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(3\0563\040Mode\040B\040\050smooth\040ramp\054\040bounded\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 568 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(Mode\040B\040applies\040a\040fixed\054\040bounded\040ramp\040based\040only\040on\040season\040progress\040\050not\040on\040a\040moving\040average\051\072) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 534 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F3 10.5 Tf
+0 0 0 rg
+(p\040\075\040minted\137in\137season\040\057\040mint\137cap\137season) Tj
+/F1 10.5 Tf
+(\040and\040) Tj
+/F3 10.5 Tf
+(score\137target\050p\051\040\075\040ceil\050T\137base\040\052) Tj
+T*
+(m\050p\051\051) Tj
+/F1 10.5 Tf
+(\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 514 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 514 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(If\040p\040\074) Tj
+(\075\0400\05680\072\040m\050p\051\040\075\0401\05600) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 494 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 494 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(If\0400\05680\040\074\040p\040\074) Tj
+(\075\0400\05695\072\040m\050p\051\040increases\040linearly\040up\040to\0401\05615) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 474 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 474 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(If\0400\05695\040\074\040p\040\074) Tj
+(\075\0401\05600\072\040m\050p\051\040increases\040linearly\040up\040to\0401\05635\040\050max\040\05335\045\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 440 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 440 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 17.5 Tm
+/F1 10.5 Tf
+14 TL
+(The\040final\040special\040Human\040token\040is\040a\040separate\040rule\072\040it\040requires\040a\040new\040global\040World\040Record\040and\040uses\040a) Tj
+T*
+(higher\040fixed\040entry\040fee\040\050\176\0441\040at\040the\040time\040of\040monthly\040update\051\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1c31ef970-be92-43b4-9e46-42605fd5992e 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F1c31ef970-be92-43b4-9e46-42605fd5992e 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0405) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F1281c5095-2604-4d21-b735-7527d8a1e3b3 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 3102
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0406) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 712 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(4\056\040Fees\040and\040Monthly\040Updates) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 676 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(Entry\040fees\040are\040expressed\040in\040) Tj
+/F2 10.5 Tf
+(fee\137lamports) Tj
+/F1 10.5 Tf
+(\040and\040stay\040constant\040until\040the\040next\040update\056\040Normal\040target\040is) Tj
+T*
+(approximately\040\074) Tj
+(\075\040\0440\05610\040\050best\040effort\051\056\040The\040final\040special\040Human\040token\040uses\040\176\040\0441\040entry\040fee\040\050best\040effort\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 670 cm
+Q
+q
+1 0 0 1 63.6 636 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(Minimum\040fee\040\050locked\051\056) Tj
+/F1 10.5 Tf
+(\040fee\137lamports\040will\040never\040be\040set\040below\040the\040initial\040floor\040equivalent\040to\040about) Tj
+T*
+/F3 10.5 Tf
+(0\05600027\040SOL) Tj
+/F1 10.5 Tf
+(\040\050example\040floor\073\040exact\040lamports\040stored\040on\055chain\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 628 cm
+Q
+q
+1 0 0 1 63.6 602 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(Monthly\040update\040process) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 582 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 582 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(A\040bot\040\050or\040admin\040script\051\040reads\040SOL\057USD\040and\040proposes\040a\040new\040fee\137lamports\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 562 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 562 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(A\0402\0573\040multisig\040\050e\056g\056\054\040Squads\051\040approves\040the\040on\055chain\040instruction\040) Tj
+/F3 10.5 Tf
+(set\137fee\137lamports\050new\137fee\051) Tj
+/F1 10.5 Tf
+(\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 528 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 528 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 17.5 Tm
+/F1 10.5 Tf
+14 TL
+(Multisig\040cannot\040withdraw\040from\040the\040Game\040Pool\040or\040Charity\040Pool\073\040it\040can\040only\040update\040parameters\040and) Tj
+T*
+(pause\057unpause\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 494 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 494 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 17.5 Tm
+/F1 10.5 Tf
+14 TL
+(Price\040sources\040\050spec\051\072\040Primary\040Pyth\040SOL\057USD\073\040Secondary\040Switchboard\040SOL\057USD\073\040Tertiary\040a\040major) Tj
+T*
+(exchange\040reference\040\050Coinbase\057Kraken\051\040for\040human\040verification\040logs\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1281c5095-2604-4d21-b735-7527d8a1e3b3 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F1281c5095-2604-4d21-b735-7527d8a1e3b3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0406) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/Contents 27 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F15ffc0df0-a4ca-4171-a8b9-f52b0bfe27dd <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 5614
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0407) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 712 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(5\056\040Checkpoints\040and\040Payout\040Distribution) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 662 cm
+q
+BT
+1 0 0 1 0 31.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(A\040) Tj
+/F2 10.5 Tf
+(checkpoint) Tj
+/F1 10.5 Tf
+(\040is\040an\040on\055chain\040event\040that\040triggers\040a\040payout\040from\040the\040Game\040Pool\056\040On\040Solana\054\040the\040program) Tj
+T*
+(cannot\040start\040a\040transaction\040by\040itself\073\040payouts\040are\040executed\040inside\040a\040caller\047s\040transaction\056\040This\040is\040still) Tj
+T*
+(\042automatic\042\040because\040any\040caller\040can\040execute\040it\040and\040the\040program\040enforces\040the\040rules\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 656 cm
+Q
+q
+1 0 0 1 63.6 630 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(5\0561\040How\040checkpoints\040lock\040\050one\055time\040execution\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 610 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 610 cm
+q
+BT
+1 0 0 1 0 3.5 Tm
+14 TL
+/F1 10.5 Tf
+0 0 0 rg
+(The\040program\040stores\040a\040checkpoint\040id\040and\040a\040) Tj
+/F2 10.5 Tf
+(claimed) Tj
+/F1 10.5 Tf
+(\040flag\040in\040SeasonState\040\057\040RecordState\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 576 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 576 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 17.5 Tm
+/F1 10.5 Tf
+14 TL
+(When\040the\040trigger\040condition\040is\040met\054\040the\040program\040snapshots\040the\040winner\040wallet\040\050and\057or\040record\055holder\051) Tj
+T*
+(and\040sets\040claimed\075false\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 542 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 16 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 542 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 17.5 Tm
+/F1 10.5 Tf
+14 TL
+(Any\040caller\040can\040execute\040the\040payout\056\040The\040program\040transfers\040SOL\040from\040the\040Pool\040PDA\040to\040recipients\040and) Tj
+T*
+(then\040sets\040claimed\075true\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 522 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 522 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(If\040called\040again\054\040the\040program\040rejects\040\050already\040claimed\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 512 cm
+Q
+q
+1 0 0 1 63.6 486 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(5\0562\040Payout\040rules\040\050locked\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 41.4 390 cm
+q
+0 0 0 rg
+n
+0 90 529.2 -18 re
+f*
+1 1 1 rg
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 77 Tm
+(Checkpoint) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 77 Tm
+(Trigger) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 77 Tm
+(Pool\040split\040\050SOL\051) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 9.3 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 59.7 Tm
+(Farm\040Season\040End) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 59.7 Tm
+(minted\137in\137season\040reaches\040mint\137cap) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 59.7 Tm
+(70\045\040retained\054\04020\045\040Season\040Winner\054\04010\045\040Creator\040payout\040\05049\045\040creator\040\057\04051\045\040charity\051) Tj
+T*
+ET
+BT
+1 0 0 1 6 41.7 Tm
+(World\040Record\040Break) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 41.7 Tm
+(new\040global\040WR\040accepted\040\050each\040time\051) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 41.7 Tm
+(70\045\040retained\054\04020\045\040Record\040Breaker\054\04010\045\040Creator\040payout\040\05049\045\040creator\040\057\04051\045\040charity\051) Tj
+T*
+ET
+BT
+1 0 0 1 6 23.7 Tm
+(Human\040Season\040End) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 23.7 Tm
+(Human\040season\040final\040token\040is\040minted\040\050WR\040required\051) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 23.7 Tm
+(30\045\040carried\040to\040Chaos\054\04040\045\040Human\040Champion\054\04030\045\040Creator\040payout\040\05049\05751\040split\051) Tj
+T*
+ET
+BT
+1 0 0 1 6 5.7 Tm
+(Chaos\040Season\040End) Tj
+T*
+ET
+BT
+1 0 0 1 99.6 5.7 Tm
+(Chaos\040final\040checkpoint) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 5.7 Tm
+(67\045\040Chaos\040Champion\054\04033\045\040Creator\040payout\040\05049\05751\040split\051) Tj
+T*
+ET
+q
+1 J
+1 j
+0.501961 0.501961 0.501961 RG
+0.5 w
+n
+0 90 m
+529.2 90 l
+S
+n
+0 0 m
+529.2 0 l
+S
+n
+0 0 m
+0 90 l
+S
+n
+529.2 0 m
+529.2 90 l
+S
+n
+0 72 m
+529.2 72 l
+S
+n
+0 54 m
+529.2 54 l
+S
+n
+0 36 m
+529.2 36 l
+S
+n
+0 18 m
+529.2 18 l
+S
+n
+93.6 0 m
+93.6 90 l
+S
+n
+248.4 0 m
+248.4 90 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 63.6 380 cm
+Q
+q
+1 0 0 1 63.6 346 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(Creator\040auto\055split\056) Tj
+/F1 10.5 Tf
+(\040For\040any\040checkpoint\040that\040includes\040a\040creator\040payout\054\040the\040program\040transfers\04049\045\040to\040the) Tj
+T*
+(creator\040wallet\040and\04051\045\040to\040the\040Charity\040Pool\040directly\040\050never\040through\040creator\040wallet\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 338 cm
+Q
+q
+1 0 0 1 63.6 290 cm
+q
+BT
+1 0 0 1 0 31.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(Immediate\040vs\040claim\056) Tj
+/F1 10.5 Tf
+(\040Implementations\040may\040pay\040immediately\040inside\040) Tj
+/F3 10.5 Tf
+(submit\137run\050\051) Tj
+/F1 10.5 Tf
+(\040when\040a\040WR\040is) Tj
+T*
+(broken\040\050recommended\051\054\040and\057or\040expose\040a\040permissionless\040) Tj
+/F3 10.5 Tf
+(claim\137checkpoint\050\051) Tj
+/F1 10.5 Tf
+(\040instruction\040as\040a\040safe) Tj
+T*
+(fallback\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F15ffc0df0-a4ca-4171-a8b9-f52b0bfe27dd 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F15ffc0df0-a4ca-4171-a8b9-f52b0bfe27dd 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0407) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+28 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+29 0 obj
+<<
+/Contents 30 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F1e78a1533-b607-44af-a071-a4d0bffa6802 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 3394
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0408) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 712 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(6\056\040NFTs\040and\040Special\040Marked\040Tokens) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 676 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 17.5 Tm
+/F1 10.5 Tf
+14 TL
+(NFTs\040are\040proof\055of\055achievement\040collectibles\056\040One\040NFT\040is\040repeatable\040for\040record\040breaks\073\040season\040and\040final) Tj
+T*
+(winners\040receive\0401\0571\040NFTs\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 41.4 568 cm
+q
+0 0 0 rg
+n
+0 108 529.2 -18 re
+f*
+1 1 1 rg
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 95 Tm
+(NFT\040file) Tj
+T*
+ET
+BT
+1 0 0 1 142.8 95 Tm
+(Name\040\050suggested\051) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 95 Tm
+(Who\040receives\040it) Tj
+T*
+ET
+BT
+1 0 0 1 438 95 Tm
+(Supply) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 9.2 Tf
+12 TL
+ET
+BT
+1 0 0 1 6 77.8 Tm
+(baby\137metatron\056png) Tj
+T*
+ET
+BT
+1 0 0 1 142.8 77.8 Tm
+(Baby\040Metatron) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 77.8 Tm
+(First\055ever\040player\040to\040play\040\050token\040\0431\040event\051) Tj
+T*
+ET
+BT
+1 0 0 1 438 77.8 Tm
+(1\0571) Tj
+T*
+ET
+BT
+1 0 0 1 6 59.8 Tm
+(season\137champion\137metatron\056png) Tj
+T*
+ET
+BT
+1 0 0 1 142.8 59.8 Tm
+(Season\040Champion\040Metatron) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 59.8 Tm
+(Top\040score\040at\040each\040Farm\040Season\040end\040checkpoint) Tj
+T*
+ET
+BT
+1 0 0 1 438 59.8 Tm
+(1\040per\040season\040\05033\040total\051) Tj
+T*
+ET
+BT
+1 0 0 1 6 41.8 Tm
+(record\137breaker\137metatron\056png) Tj
+T*
+ET
+BT
+1 0 0 1 142.8 41.8 Tm
+(Record\040Breaker\040Metatron) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 41.8 Tm
+(Every\040time\040a\040new\040global\040WR\040is\040accepted) Tj
+T*
+ET
+BT
+1 0 0 1 438 41.8 Tm
+(Repeatable) Tj
+T*
+ET
+BT
+1 0 0 1 6 23.8 Tm
+(human\137metatron\056png) Tj
+T*
+ET
+BT
+1 0 0 1 142.8 23.8 Tm
+(Human\040Metatron) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 23.8 Tm
+(Human\040Season\040Champion\040\050verified\051) Tj
+T*
+ET
+BT
+1 0 0 1 438 23.8 Tm
+(1\0571) Tj
+T*
+ET
+BT
+1 0 0 1 6 5.8 Tm
+(final\137galaxy\137metatron\137defender\056png) Tj
+T*
+ET
+BT
+1 0 0 1 142.8 5.8 Tm
+(Final\040Galaxy\040Metatron\040Defender) Tj
+T*
+ET
+BT
+1 0 0 1 254.4 5.8 Tm
+(Chaos\040Season\040Champion\040\050final\051) Tj
+T*
+ET
+BT
+1 0 0 1 438 5.8 Tm
+(1\0571) Tj
+T*
+ET
+q
+1 J
+1 j
+0.501961 0.501961 0.501961 RG
+0.5 w
+n
+0 108 m
+529.2 108 l
+S
+n
+0 0 m
+529.2 0 l
+S
+n
+0 0 m
+0 108 l
+S
+n
+529.2 0 m
+529.2 108 l
+S
+n
+0 90 m
+529.2 90 l
+S
+n
+0 72 m
+529.2 72 l
+S
+n
+0 54 m
+529.2 54 l
+S
+n
+0 36 m
+529.2 36 l
+S
+n
+0 18 m
+529.2 18 l
+S
+n
+136.8 0 m
+136.8 108 l
+S
+n
+248.4 0 m
+248.4 108 l
+S
+n
+432 0 m
+432 108 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 63.6 558 cm
+Q
+q
+1 0 0 1 63.6 524 cm
+q
+BT
+1 0 0 1 0 17.5 Tm
+14 TL
+/F2 10.5 Tf
+0 0 0 rg
+(Special\040marked\040fungible\040tokens\056) Tj
+/F1 10.5 Tf
+(\040Two\0401\055of\0551\040marked\040\044420POP\040tokens\040are\040planned\072\040) Tj
+/F4 10.5 Tf
+(Galaxy\040King) Tj
+/F1 10.5 Tf
+T*
+(\050Human\040winner\040\053\040record\051\040and\040) Tj
+/F4 10.5 Tf
+(Chaos\040King) Tj
+/F1 10.5 Tf
+(\040\050Chaos\040winner\040\053\040record\051\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1e78a1533-b607-44af-a071-a4d0bffa6802 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F1e78a1533-b607-44af-a071-a4d0bffa6802 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0408) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+31 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F4 9 0 R
+/F1959941a8-76e6-4233-a510-5e548b54e23d <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 3060
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 9 Tf
+10.8 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 377.973 39.6 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0566\040\040\174\040\040Page\0409) Tj
+T*
+ET
+Q
+q
+1 0 0 1 63.6 712 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(7\056\040Governance\040for\040Charity\040Operator) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 676 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 17.5 Tm
+/F1 10.5 Tf
+14 TL
+(The\040charity\040operator\040is\040selected\040via\040on\055chain\040voting\040and\040occurs\040only\040two\040times\072\040end\040of\040Human\040emission) Tj
+T*
+(and\040end\040of\040Chaos\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 656 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 656 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(Eligibility\072\040wallets\040that\040farmed\040\076\075\0401\040\044420POP\040token\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 636 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 636 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(Voting\072\040token\055weighted\040by\040default\040\0501\040token\040\075\0401\040vote\040unit\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 616 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 616 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(Quorum\072\040min\04010\054000\040votes\056\040Duration\072\04099\040days\056\040Tie\040\075\076\040re\055vote\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 596 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 596 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(If\040a\040vote\040fails\040to\040reach\040quorum\054\040funds\040remain\040in\040the\040Charity\040Pool\040until\040the\040next\040vote\040\050no\040withdrawal\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 576 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+<7f> Tj
+T*
+ET
+Q
+q
+1 0 0 1 81.6 576 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3.5 Tm
+/F1 10.5 Tf
+14 TL
+(The\040chosen\040operator\040address\040must\040be\040on\040a\040whitelist\040of\040verified\040charity\040organizations\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 564 cm
+Q
+q
+1 0 0 1 63.6 532 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 16 Tf
+20 TL
+(8\056\040Next\040Implementation\040Step) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 482 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 31.5 Tm
+/F1 10.5 Tf
+14 TL
+(Wire\040the\040existing\040game\040\050no\040gameplay\040changes\051\040to\072\040\0501\051\040connect\040wallet\040and\040write\040player\137pubkey\054\040\0502\051) Tj
+T*
+(perform\040the\040entry\040fee\040transfer\054\040\0503\051\040generate\040PoP\040package\040hashes\054\040\0504\051\040call\040the\040on\055chain\040program) Tj
+T*
+(instructions\040to\040record\040runs\040and\040execute\040payouts\057checkpoints\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1959941a8-76e6-4233-a510-5e548b54e23d 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F1959941a8-76e6-4233-a510-5e548b54e23d 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 220.2885 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\0409) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 37 0 R
+/F2 38 0 R
+/F3 39 0 R
+/F19cf07e7a-b49d-4ede-af96-9153f6c2b7b2 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageI /Text /ImageB /ImageC /PDF ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 2753
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 18 Tf
+21.6 TL
+ET
+BT
+1 0 0 1 57.6 727.2 Tm
+(Galaxy\040King\040Dog\040\227\040Whitepaper\040Addendum\040v1\0567) Tj
+T*
+ET
+BT
+/F1 11 Tf
+13.2 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 57.6 709.2 Tm
+(Date\072\0402025\05512\05517\040\040\174\040\040Supersedes\040supply\057season\040notes\040in\040v1\0566\040where\040conflicting\056) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F2 13 Tf
+15.6 TL
+ET
+BT
+1 0 0 1 57.6 676.8 Tm
+(Update\072\040Season\040Count\040\046\040Human) Tj
+/F3 13 Tf
+15.6 TL
+(\256) Tj
+/F2 13 Tf
+15.6 TL
+(Chaos\040Boundary) Tj
+T*
+ET
+BT
+/F1 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 68.4 658.8 Tm
+(1\051\040Total\040Farm\040Seasons\072\04033\040\050Bitcoin\055style\040halving\040count\051\056) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 644.4 Tm
+(2\051\040Human\040Emission\040ends\040at\040Season\04032\056) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 630 Tm
+(\040\040\040\055\040Season\04032\040retains\040the\040\047final\040Human\040token\047\040special\040rule\072) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 615.6 Tm
+(\040\040\040\040\040the\040last\040mint\040requires\040a\040new\040World\040Record\040\050WR\051\040to\040be\040claimed\056) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 601.2 Tm
+(3\051\040Season\04033\040is\040the\040final\040Chaos\040Season\040with\040a\040fixed\040cap\072) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 586.8 Tm
+(\040\040\040\055\040Season\04033\040Chaos\040cap\072\040300\054000\040\044420POP\040\050SPL\051\040tokens\056) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 572.4 Tm
+(\040\040\040\055\040The\040very\040last\040Chaos\040token\040is\040the\040marked\040\047Chaos\040King\047\040token\054\040awarded\040at\040end\055of\055Chaos\056) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 558 Tm
+T*
+ET
+BT
+1 0 0 1 68.4 543.6 Tm
+(Notes\072) Tj
+T*
+ET
+BT
+1 0 0 1 68.4 529.2 Tm
+<7f205468697320646f6573206e6f74206368616e67652067616d65706c61792072756c65733b206974206f6e6c79206368616e67657320656d697373696f6e2f736561736f6e20626f756e64617269657320616e6420636170732e> Tj
+T*
+ET
+BT
+1 0 0 1 68.4 514.8 Tm
+<7f205265776172642073706c6974732c2063726561746f722f636861726974792073706c6974202834392f3531292c20616e6420636865636b706f696e74207061796f75742074726967676572732072656d61696e20617320646566696e656420696e2076312e3620756e6c657373206578706c696369746c7920726576697365642e> Tj
+T*
+ET
+0.501961 0.501961 0.501961 rg
+BT
+/F1 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 57.6 46.8 Tm
+(Addendum\040v1\0567\040\227\040For\040implementation\054\040treat\040this\040page\040as\040authoritative\040over\040prior\040season\055cap\040wording\056) Tj
+T*
+ET
+0 0 0 rg
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F19cf07e7a-b49d-4ede-af96-9153f6c2b7b2 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 28 re
+f*
+0 0 0 rg
+BT
+/F19cf07e7a-b49d-4ede-af96-9153f6c2b7b2 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 217.7865 9 Tm
+(Galaxy\040King\040Dog\040Whitepaper\040v1\0567\040\174\040Page\04010) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 41
+0000000000 65535 f 
+0000000015 00000 n 
+0000000138 00000 n 
+0000000178 00000 n 
+0000000227 00000 n 
+0000000600 00000 n 
+0000005042 00000 n 
+0000005149 00000 n 
+0000005261 00000 n 
+0000005366 00000 n 
+0000005481 00000 n 
+0000005589 00000 n 
+0000005964 00000 n 
+0000009250 00000 n 
+0000009358 00000 n 
+0000009733 00000 n 
+0000013333 00000 n 
+0000013441 00000 n 
+0000013816 00000 n 
+0000020304 00000 n 
+0000020412 00000 n 
+0000020787 00000 n 
+0000024236 00000 n 
+0000024344 00000 n 
+0000024719 00000 n 
+0000027874 00000 n 
+0000027982 00000 n 
+0000028357 00000 n 
+0000034024 00000 n 
+0000034132 00000 n 
+0000034507 00000 n 
+0000037954 00000 n 
+0000038062 00000 n 
+0000038437 00000 n 
+0000041550 00000 n 
+0000041658 00000 n 
+0000042026 00000 n 
+0000044832 00000 n 
+0000044940 00000 n 
+0000045053 00000 n 
+0000045131 00000 n 
+trailer
+<<
+/Size 41
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+45239
+%%EOF
