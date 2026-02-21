@@ -3,6 +3,7 @@
 Arcade space shooter with deterministic replay verification for anti-cheat score integrity.
 
 ## Whitepapers
+- [Galaxy King Dog Whitepaper (Unified v2.0)](./Galaxy_King_Dog_Whitepaper_Unified_v2.md)
 - [Galaxy King Dog Whitepaper v1.7 (fixed)](./Galaxy_King_Dog_Whitepaper_v1.7_fixed.pdf)
 - [Galaxy King Dog Whitepaper v1.4](./Galaxy_King_Dog_Whitepaper_v1.4.pdf)
 
